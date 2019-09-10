@@ -1,0 +1,59 @@
+
+body {
+	background-color: white;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+h1 {
+	box-sizing: border-box;	
+	background-color: maroon;
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: right;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-style: none;
+	/*font-family: 'Gloria Hallelujah', cursive;*/
+	font-size: 40px;
+	height: 30%;
+	width: 100%;
+}
+
+#subh1 {
+	font-size: 16px;
+}
+
+#linkbox1 {
+	float: left;
+	display: inline-block;
+	/*border: 3px solid black;*/
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 200px;
+	width: 40%;
+	box-sizing: border-box;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+.normtext {
+	font-size: 20px;
+}
