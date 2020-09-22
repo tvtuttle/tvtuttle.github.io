@@ -8,8 +8,10 @@ body {
 	padding-right: 0px;
 }
 
-h1 {
-	box-sizing: border-box;	
+#header {
+	display: flex;
+	flex-direction: column;
+	/*box-sizing: border-box;*/	
 	background-color: maroon;
 	color: white;
 	padding-top: 12px;
@@ -21,20 +23,32 @@ h1 {
 	margin-right: 0px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border-style: none;
+	/*border-style: none;*/
 	/*font-family: 'Gloria Hallelujah', cursive;*/
 	font-size: 40px;
 	height: 30%;
-	width: 100%;
+	/*width: 100%;*/
+	/*border: 3px solid black;*/
 }
 
-#subh1 {
-	font-size: 16px;
+#name {
+	/*border: 3px solid black;*/
 }
+#info {
+	font-size: 16px;
+	/*border: 3px solid black;*/
+}
+
+#links {
+	display: flex;
+	flex-direction: row;
+	height: 60vh;
+	/*border: 3px solid green;*/
+}	
 
 #linkbox1 {
 	float: left;
-	display: inline-block;
+	/*display: inline-block;*/
 	/*border: 3px solid black;*/
 	margin-left: 20px;
 	margin-right: 20px;
@@ -44,14 +58,14 @@ h1 {
 	padding-right: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	height: 200px;
+	/*height: 200px;*/
 	width: 40%;
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 }
 
 #linkbox2 {
 	float: left;
-	display: inline-block;
+	/*display: inline-block;*/
 	/*border: 3px solid black;*/
 	margin-left: 20px;
 	margin-right: 20px;
@@ -61,17 +75,18 @@ h1 {
 	padding-right: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	height: 200px;
+	/*height: 200px;*/
 	width: 40%;
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 }
 h2 {
 	font-size: 26px;
 }
 
-#home {
-	display: inline-block;
+#footer {
+	/*display: inline-block;*/
 	width: 100%;
+	height: 10vh;
 	/*border: 3px solid black;*/
 	text-align: center;
 	margin-top: 20px;
